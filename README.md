@@ -17,8 +17,6 @@ bash <(curl -s https://raw.githubusercontent.com/Bangsano/Pterodactyl-Theme-Auto
 - Install Tema Enigma
 - Uninstall Tema
 
- (Kode Token : bangsano)
-
 ## System Support :
 
 | Operating System | Version | Supported          |
@@ -32,4 +30,4 @@ bash <(curl -s https://raw.githubusercontent.com/Bangsano/Pterodactyl-Theme-Auto
 _\* di atas adalah os yang saya test, selebihnya bisa di test sendiri._
 
 ## Credits 
-- Created by [ BANG SANO ](https://github.com/Bangsano)
+- Github: [ SANO OFFICIAL ](https://github.com/Bangsano)

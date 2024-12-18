@@ -13,17 +13,15 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © SANO                [+]${NC}"
+  echo -e "${BLUE}[+]                  © SANO OFFICIAL               [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
   echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyl,"
   echo -e "Dilarang Keras Share Bebas."
   echo -e ""
-  echo -e "𝗬𝗢𝗨𝗧𝗨𝗕𝗘 :"
-  echo -e "@bang_sano1"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "By Bang Sano"
+  echo -e "By Sano Official"
   sleep 4
   clear
 }
@@ -59,17 +57,17 @@ check_token() {
   echo -e "${BLUE}[+]               LICENSE SANO            [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
+  echo -e "${YELLOW}MASUKKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
   if [ "$USER_TOKEN" = "bangsano" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}Token Salah! Beli Kode Token Di BANG SANO${NC}"
-    echo -e "${YELLOW}YOUTUBE : @bang_sano1${NC}"
     echo -e "${YELLOW}WHATSAPP : +6289605983169${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 15K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}© SANO${NC}"
+    echo -e "${YELLOW}TELEGRAM : t.me/batuofc${NC}"
+    echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
+    echo -e "${YELLOW}© SANO OFFICIAL${NC}"
     exit 1
   fi
   clear
@@ -88,7 +86,7 @@ install_theme() {
     echo "2. billing"
     echo "3. enigma"
     echo "x. kembali"
-    echo -e "masukan pilihan (1/2/3/x) :"
+    echo -e "masukkan pilihan (1/2/3/x) :"
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
@@ -183,7 +181,7 @@ elif [ "$SELECT_THEME" -eq 3 ]; then
     # Menanyakan informasi kepada pengguna untuk tema Enigma
     echo -e "${YELLOW}Masukkan link wa (https://wa.me/...) : ${NC}"
     read LINK_WA
-    echo -e "${YELLOW}Masukkan link group (https://chat.whatsapp.com/.....) : ${NC}"
+    echo -e "${YELLOW}Masukkan link group (https://chat.whatsapp.com/...) : ${NC}"
     read LINK_GROUP
     echo -e "${YELLOW}Masukkan link channel (https://whatsapp.com/channel/...) : ${NC}"
     read LINK_CHNL
@@ -226,7 +224,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/Bangsano/installer-theme/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/Bangsano/Pterodactyl-Theme-Autoinstaller/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
@@ -393,7 +391,7 @@ hackback_panel() {
   echo -e "                                                       "
   # Minta input dari pengguna
 read -p "Masukkan Username Panel: " user
-read -p "password login " psswdhb
+read -p "password login: " psswdhb
   #!/bin/bash
 cd /var/www/pterodactyl || { echo "Direktori tidak ditemukan"; exit 1; }
 
@@ -422,7 +420,7 @@ ubahpw_vps() {
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
 read -p "Masukkan Pw Baru: " pw
-read -p "Masukkan Ulang Pw Baru " pw
+read -p "Masukkan Ulang Pw Baru: " pw
 
 passwd <<EOF
 $pw
@@ -453,11 +451,11 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer SANO   ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Theme   ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Youtube : @bang_sano1      ${NC}"
-  echo -e "${RED} ggg:     ggg._    _,ggg        • Credit  : Bang Sano  ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support by SANO  ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg       • Credit  : Sano Official      ${NC}"
+  echo -e "${RED} ggg:     ggg._    _,ggg        • Telegram  : t.me/batuofc  ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp           • WhatsApp: 6289605983169  ${NC}"
   echo -e "${RED}  'ggg    '-.__                                           ${NC}"
   echo -e "${RED}    ggg                                                   ${NC}"
   echo -e "${RED}      ggg                                                 ${NC}"
