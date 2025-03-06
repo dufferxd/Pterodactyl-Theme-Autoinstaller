@@ -98,7 +98,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/Bangsano/Pterodactyl-Theme-Autoinstaller/raw/main/enigma.zip")
+        THEME_URL=$(echo -e "https://github.com/dufferxd/Pterodactyl-Theme-Autoinstaller/raw/main/enigma.zip")
         break
         ;; 
       x)
