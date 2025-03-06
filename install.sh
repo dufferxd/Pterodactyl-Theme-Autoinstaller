@@ -94,7 +94,7 @@ install_theme() {
         break
         ;;
       2)
-        THEME_URL=$(echo -e "https://github.com/Bangsano/Pterodactyl-Theme-Autoinstaller/raw/main/billing.zip")
+        THEME_URL=$(echo -e "https://github.com/dufferxd/Pterodactyl-Theme-Autoinstaller/raw/main/billing.zip")
         break
         ;;
       3)
